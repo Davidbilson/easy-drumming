@@ -126,7 +126,7 @@ li {
       background-repeat: no-repeat;
       color:rgb(255, 255, 255);
       text-shadow: 0px 2px 2px silver;
-      padding: 13vh 20px;
+      padding: 13vh 40px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -136,6 +136,7 @@ li {
   }
   section > div {
       margin: 20px;
+      padding: 0px 13px;
   }
   section > div button {
       padding: 14px 40px;
@@ -497,7 +498,6 @@ footer {
     transition: 1s;
 }
 
-
 footer {
     background: #000000;
     color: whitesmoke;
@@ -617,7 +617,7 @@ footer button {
     text-align: center;
     margin: auto;
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     max-width: 800px;
     min-width: 370px;
 }
@@ -642,7 +642,7 @@ footer button {
 }
 .freereport {
     max-width: 900px;
-    margin:120px auto;
+    margin:40px auto;
 }
 .freereport .p {
     font-family: sans-serif;
@@ -652,10 +652,32 @@ footer button {
     padding: 8px 13px;
 }
 .review {
-    max-width: 600px;
-    margin:80px auto;
     font-size: 17px;
-    padding: 8px 13px;
+    padding: 60px 0px;
+  
+}
+.free {
+    background: #faf7ff;
+    padding: 70px 0px;
+}
+.review img {
+    width: 100%;
+    height: auto;
+}
+.reviewimg {
+    max-width: 570px;
+    min-width: 360px;
+    background: rgb(58, 58, 58);
+    height: auto;
+    border:1px solid rgb(85, 85, 85);
+    margin: auto;
+    margin-bottom: 53px;
+}
+.reviewimg p {
+    padding:14px 8px;
+    font-size: 15px;
+    font-weight: 800px;
+    color: rgb(216, 216, 216);
 }
 .purchases{
     max-width: 450px;
