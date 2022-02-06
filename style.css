@@ -449,8 +449,9 @@ footer {
     margin-bottom: 50px;
     margin: auto;
 }
-.card video {
+.card iframe {
     width: 100%;
+    min-height: 400px;
 }
 .container {
     padding: 18px 16px;
