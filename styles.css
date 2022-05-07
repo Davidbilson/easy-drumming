@@ -2,66 +2,124 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial, sans-serif;
 }
 
 li {
     list-style: none;
 }
 
-  
   section {
       width: 100%;
-      height: auto;
+      height: 80vh;
       font-family: Arial, sans-serif;
-      background:url(images/cymbal.jpg);
+      background:url(images/bgbk.png);
       background-size: cover;
-      background-position: center;
+      background-attachment: fixed;
       background-repeat: no-repeat;
       color:rgb(255, 255, 255);
-      text-shadow: 0px 2px 2px silver;
-      padding: 13vh 40px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
   }
-  section img {
-      box-shadow:4px 20px 28px rgb(0, 0, 0) ;
-  }
+  
   section > div {
-      margin: 20px;
-      padding: 0px 13px;
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      padding:40px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
-  section > div button {
-      padding: 14px 40px;
-      background: white;
-      color:rgb(0, 0, 0);
+  button {
+     
+      padding: 13px 50px;
+      background: rgb(211, 0, 0);
+      color:rgb(255, 255, 255);
+      font-weight: 700;
       font-size: 16px;
       border: none;
       font-family: Arial, sans-serif;
-      margin-top:20px;
-      transition: 0.7s;
+      margin: auto;
   }
-  section > div button:hover{
-        background: none;
-        border:1px solid white;
-        color: #fff;
+  section > div button {
+      padding: 13px 50px;
+      background: rgb(211, 0, 0);
+      color:rgb(255, 255, 255);
+      font-weight: 700;
+      font-size: 16px;
+      border: none;
+      font-family: Arial, sans-serif;
+      margin: auto;
   }
   section > div h1 {
       font-size: 50px;
-      font-weight: 500;
+      font-weight: 700;
+      text-align: center;
+      color: whitesmoke;
+      padding: 15px;
+      max-width: 900px;
   }
   section > div p {
-      margin-top: 25px;
-      line-height: 1.5em;
-      font-size: 17px;
-      text-align: justify;
-      max-width: 600px;
-      min-width:350px;
-      text-align: left;
+      margin: 25px 0;
+      line-height: 1.6em;
+      font-size: 19px;
+      text-align: center;
+      max-width: 700px;
+      padding: 15px;
+      color: whitesmoke;
+  }
+  @media (max-width:500px) {
+    section {
+        width: 100%;
+        height:auto;
+        font-family: Arial, sans-serif;
+        background:url(images/bgbk.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section > div p {
+        margin: 25px 0;
+        line-height: 1.6em;
+        font-size: 19px;
+        text-align: justify;
+        max-width: 700px;
+        padding: 15px;
+        color: whitesmoke;
+    }
+    button {
+     
+        width: 100%;
+        background: darkred;
+        color:rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+        font-family: Arial, sans-serif;
+        margin: auto;
+    }
+    section > div button {
+        width: 100%;
+        background: rgb(211, 0, 0);
+        color:rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+        font-family: Arial, sans-serif;
+        margin: auto;
+    }
   }
   .second {
       text-align: center;
-      padding: 80px 20px;
+      padding: 50px 20px;
   }
   .second .h1 {
     font-size: 28px;
@@ -309,13 +367,9 @@ sup {
     font-size: 35px;
 }
 .card {
-    box-shadow: 0 14px 20px rgb(0, 0, 0);
     transition: 0.4s;
     max-width: 850px;
-    min-width: 365px;
-    margin-top: 50px;
-    background-image: linear-gradient(to right, #000000, #e6003a);
-    margin-bottom: 50px;
+    margin: 50px 0px;
     margin: auto;
 }
 .card iframe {
@@ -362,6 +416,7 @@ sup {
 
 
 .download a {
+    text-decoration: none;
     background:rgb(221, 0, 0);
     color: rgb(240, 240, 240);
     font-size: 18px;
@@ -423,7 +478,6 @@ sup {
     font-family: arial, sans-serif;
     margin: auto;
     max-width: 800px;
-    min-width: 365px;
     text-align: left;
 }
 .chapters > div {
@@ -453,7 +507,6 @@ sup {
     margin-top: 90px;
     margin-bottom: 50px;
     max-width: 800px;
-    min-width: 370px;
 }
 .multidevice img {
     width: 100%;
@@ -461,7 +514,7 @@ sup {
 }
 .anydevice {
 
-    font-size: 28px;
+    font-size: 2.5rem;
     font-family:sans-serif;
     text-align: center;
     font-weight: 600;
@@ -475,16 +528,13 @@ sup {
     color: #000000;
 }
 .freereport {
-    max-width: 900px;
+    max-width: 1000px;
     margin:40px auto;
+    padding: 15px;
+    line-height: 4rem;
 }
 .freereport .p {
-    font-family: arial;
-    font-weight: 500;
     font-size: 18px;
-    text-align: justify;
-    line-height: 2em;
-    padding: 8px 20px;
 }
 .review {
     font-size: 17px;
@@ -492,8 +542,8 @@ sup {
   
 }
 .free {
-    background: #faf7ff;
-    padding: 70px 0px;
+    background: #ffffff;
+    padding: 80px 0px 20px 0;
 }
 .review img {
     width: 100%;
@@ -501,7 +551,6 @@ sup {
 }
 .reviewimg {
     max-width: 570px;
-    min-width: 360px;
     background: rgb(58, 58, 58);
     height: auto;
     border:1px solid rgb(85, 85, 85);
@@ -516,7 +565,6 @@ sup {
 }
 .purchases{
     max-width: 450px;
-    min-width: 350px;
     margin:auto;
     text-align: center;
     background: rgb(255, 255, 255);
@@ -560,7 +608,7 @@ sup {
 .numchap {
     width: 50px;
     height: 50px;
-    background:rgb(221, 0, 0);
+    background:darkred;
     border-radius: 5px 10px 15px 20px;
     text-align: center;
     justify-content: center;

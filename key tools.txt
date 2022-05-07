@@ -43,3 +43,13 @@ pacaembu, sans-serif
 <meta property="og:description" content="A powerful serverless platform with an intuitive git-based workflow. Automated deployments, shareable previews, and much more. Get started for free!" />
 
 <meta name="google-site-verification" content="CAxgIAbLi9W2LTON4EwPKPD4nc0M7CV7xXkrwRMLpsU" /> <!-- Needed for Hugues Tennier's ownership of Google Search Console -->
+
+
+
+
+
+
+#112b3c	black
+#205375 blue
+#f66b0e orange
+#efefef greysilverwhite
