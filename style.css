@@ -121,12 +121,13 @@
         .cta {
             text-decoration: none;
             color: whitesmoke;
-            background: darkred;
+            background: green;
             font-size: 15px;
             font-weight: 600;
             max-width: 210px;
-            padding: 13px 40px;
+            padding: 25px 40px;
             border: none;
+            border-radius: 16px;
         }
         footer {
             width: 100%;
