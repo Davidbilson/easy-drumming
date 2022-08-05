@@ -1,2 +1,3 @@
 # easy-drumming
-this is a site for drummer ebook purchase
+sales funnel for music digital product.
+landing page | optin page | sales page | checkout/payment page
